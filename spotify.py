@@ -20,6 +20,7 @@ with sr.Microphone() as source:
         time.sleep(7)  
 
         pyautogui.moveTo(744, 454, duration=1)  
+        time.sleep(3)
         pyautogui.click()
 
 
